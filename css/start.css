@@ -168,22 +168,6 @@ svg {
     .dropdown{
         display: block;
     }
-    div.col-lg-4>h2, div.col-lg-4>h5,div.col-lg-4>p {
-        text-align: unset;
-    }
-    div.col-lg-4>h2 {
-        margin-left: 5%;
-    }
-    div.col-lg-4>h5 {
-        margin-left: 0%
-    }
-    div.col-lg-4>p{
-        margin:  5% 0 2% -11.5%;
-        font-size: .92em;
-    }
-    div.col-lg-4>a {
-        margin:   5% 0 0 21%;
-    }
     .showMobile {
         display: none;
     }
