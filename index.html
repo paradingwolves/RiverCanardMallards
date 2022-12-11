@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/start.css">
+    <link rel="stylesheet" href="css/bootstrap(1).css">
+    <title>River Canard Mallards</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">River Canard Mallards</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Home
+                      <span class="visually-hidden">(current)</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Roster</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Schedule</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.leaguelineup.com/standings_baseball.asp?url=ecsl" target="_blank">Standings</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Fundraising</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Become a Mallard</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Become a Mallard</a>
+                      <a class="dropdown-item" href="gallery.html">Gallery</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" target="_blank" href="https://river-canard-mallards.square.site/" target="_blank">Merchandise</a>
+                    </div>
+                  </li>
+                  <li class="nav-item showMobile">
+                    <a class="nav-link" href="" target="_blank">Become a Mallard</a>
+                  </li>
+                  <li class="nav-item showMobile">
+                    <a class="nav-link" href="#">Gallery</a>
+                  </li>
+                  <li class="nav-item showMobile">
+                    <a class="nav-link" href="https://river-canard-mallards.square.site/" target="_blank">Merchandise</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <!-- 
+        -----------------------------           
+            
+        IMAGE CAROUSEL 
+        
+        -----------------------------
+        -->
+      <div id="photoCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#photoCarousel" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#photoCarousel" data-bs-slide-to="1"></li>
+          <li data-bs-target="#photoCarousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-image: url(imgs/saucy.webp);">
+            <div class="container">
+              <h1>Mallards</h1>
+              <p>Root for the Mallards!</p>
+              <a href="schedule.html" class="btn btn-lg btn-primary">
+                Schedule
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(imgs/joeDirt.webp);">
+            <div class="container">
+              <h1>Support the Green and Orange</h1>
+              <p>Sign up for our Annual Bean Bag Tournament!</p>
+              <a href="fundraising.html" class="btn btn-lg btn-primary">
+                Fundraising
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(imgs/scratchAndSniff.webp);">
+            <div class="container">
+              <h1>Mallards Gear</h1>
+              <p>Get some rad Mallards Gear</p>
+              <a href="https://river-canard-mallards.square.site/" target="_blank" class="btn btn-lg btn-primary">
+                Mallards Gear
+              </a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#photoCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#photoCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+     
+      <div class="row">
+        <div class="col-lg-5"></div>
+        <div class="col-lg-4"><h2 id="goMallards">Go Mallards!</h2></div>
+        <div class="col-lg-3"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+          <img id="steezus" src="imgs/bigBootySteeze.webp" alt="steeze and kurt"/>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-5"></div>
+        <div class="col-lg-3"><h3 id="goMallards">Get To Know The Mallards</h3></div>
+        <div class="col-lg-4"></div>
+      </div>
+
+
+
+
+
+    <!-- 
+    -----------------------------           
+        
+      PLAYER REGISTRATION FORM 
+    
+    -----------------------------
+    -->
+    <div class="container-md">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <h3 class="col-md-4">Interested in Becoming a Mallard?</h3>
+            <div class="col-md-4"></div>
+        </div>
+        
+        <!-- start of row -->
+        <div id="formMarginTop" class="row">
+          <!-- Margin for desktop -->
+          <div class="col-md-4"></div>
+          <!-- form -->
+          <form class="col-md-4 bg-dark needs-validation" novalidate>
+            <fieldset>
+              <div class="form-group">
+              <!--   <label for="fullName" class="form-label mt-4">Full Name</label> -->
+                <input type="text" class="form-control mt-4" id="fullName" aria-describedby="enterFullName" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <!-- <label for="email1" class="form-label mt-4">Email address</label> -->
+                <input type="email" class="form-control mt-4" id="email1" aria-describedby="emailHelp" placeholder="Your Email" required>
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <!-- <label for="phoneNumber" class="form-label mt-4">Phone Number</label> -->
+                <input type="tel" class="form-control" id="phoneNumber" aria-describedby="enterphoneNumber" placeholder="Phone Number" required>
+              </div>
+              <div class="form-group">
+                <!-- <label for="lastTeam" class="form-label mt-4">Last Team Played For</label> -->
+                <input type="text" class="form-control mt-4" id="lastTeam" aria-describedby="enterlastName" placeholder="Last Team Played For" required>
+              </div>
+              <div class="form-group">
+                <!-- <label for="city" class="form-label mt-4">City</label> -->
+                <input type="text" class="form-control mt-4" id="city" aria-describedby="enterCity" placeholder="City" required>
+              </div>
+              <legend class="mt-4">Position(s)</legend>
+              <input type="text" class="form-control mt-4 positions" id="position" aria-describedby="enterPosition" placeholder="Position" required>
+            </fieldset>
+            <button type="submit" id="Submit" class="btn btn-success">Submit</button>
+            <div style="margin-top:3%;" class="alert alert-dismissible alert-danger">
+              <button type="button" class="btn-close"></button>
+              <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.
+            </div>
+          </form>
+          <div class="col-md-4"></div>
+        </div>
+      </div>
+      <div class="container-md contactUs">
+        <div class="row">
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6">
+            <section>
+              <h2>Contact Us</h2>
+              <h5>River Canard Mallards</h5>
+              <p>Vollmer Complex, 2121 laurier, LaSalle, Ontario</p>
+              <a href="mailto:rivercanardmallards@gmail.com">RiverCanardMallards@gmail.com</a>
+            </section>
+          </div>
+        </div>
+      </div>
+     <!--  <div class="container-md contactUs">
+        <section> 
+        <div class="row">
+          <div class="col-lg-5"></div>
+          <div class="col-lg-4">
+            <h2>Contact Us</h2>
+          </div>  
+          <div class="col-lg-3"></div>
+        </div> 
+        <div class="row">
+          <div class="col-lg-5"></div>
+          <div class="col-lg-4">
+            <h5>River Canard Mallards</h5>
+          </div>  
+          <div class="col-lg-3"></div>
+        </div> 
+        <div class="row">
+          <div class="col-lg-5"></div>
+          <div class="col-lg-4">
+            <p>Vollmer Complex, 2121 laurier, LaSalle, Ontario</p>
+          </div>  
+          <div class="col-lg-2"></div>
+        </div> 
+        <div class="row">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4">
+            <a href="mailto:rivercanardmallards@gmail.com">RiverCanardMallards@gmail.com</a>
+          </div>  
+          <div class="col-lg-4"></div>
+        </div>               
+      </div> -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11818.509039755394!2d-83.052992!3d42.2224105!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdfbd76ee9154b1ad!2sVollmer%20Culture%20and%20Recreation%20Complex!5e0!3m2!1sen!2sca!4v1670535696856!5m2!1sen!2sca" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <!-- The Modal -->
+      <div class="row">
+          <div class="col-md-4"></div>
+          <div id="myModal" class="modal col-md-4">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Successfully Registered!</h2>
+              </div>
+              <div class="modal-body">
+                <p>Your player registration form was successfully submitted!</p>
+                <p>You will be contacted by email for spring tryouts!</p>
+              </div>
+              <div class="modal-footer">
+                <h3>River Canard Mallards Baseball</h3>
+              </div>
+            </div>
+          </div>
+        <div class="col-md-4"></div>
+      </div> 
+    </main>
+    <div class="row">   
+        <div class="container-fluid">
+            <footer class="col-md-12  bg-custom">
+                <div class="row">
+                  <div class="col-lg-3"></div>
+                  <div class="col-lg-1"><a href="roster.php">Roster</a></div>
+                  <div class="col-lg-1"><a href="schedule.html">Schedule</a></div>
+                  <div class="col-lg-1"><a href="https://www.leaguelineup.com/standings_baseball.asp?url=ecsl" target="_blank">Standings</a></div>
+                  <div class="col-lg-1"><a href="fundraising.html">Fundraising</a></div>
+                  <div class="col-lg-1"><a href="gallery.html">Gallery</a></div>
+                  <div class="col-lg-1"><a href="https://river-canard-mallards.square.site/" target="_blank">Merchandise</a></div>
+                  <div class="col-lg-3"></div>
+                
+                  <div class="row">
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4"><h4>River Canard Mallards</h4></div>
+                    <div class="col-lg-4"></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-7"></div>
+                    <div class="col-lg-3">Follow Us on Instagram: 
+                      <a href="https://instagram.com/mallardsbaseball?igshid=MDM4ZDc5MmU=" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="col-lg-2"></div>
+                   </div>
+                  </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/validation.js"></script>
+  </body>
+</html>
