@@ -1,0 +1,217 @@
+/* 1. Header Styles */
+/* 2. Navgation Styles */
+/* 3. Heading Styles */
+/* 4. Body Styles */
+/* 5. Footer Styles */
+/* 6. Media Queries */
+
+
+
+
+/* 1. Header Styles */
+
+
+/* 2. Navgation Styles */
+.dropdown {
+    display: none;
+}
+.bg-custom {
+    background-color: green;
+}
+.nav-link {
+    text-align: center;
+}
+/* 3. Heading Styles */
+.container-md h3 {
+    margin: 5% 0 3% 5%;
+    font-size: 1.25em;
+}
+#goMallards {
+    text-align: center;
+    margin-top: 5%
+}
+h3.col-md-4 {
+    margin-left: 8%
+}
+div.col-lg-4>h2, div.col-lg-4>h5 {
+    margin: 5% 0 0 -5%;
+    text-align: center;
+}
+div.col-lg-4>h2 {
+    margin-top: 0
+}
+div.col-lg-4>h5 {
+    margin-left: -5%;
+}
+/* section h2{
+    margin-bottom: 5%
+}
+section h5{
+    margin: 0 0 5% -3%
+} */
+footer h4{
+    margin-top: 10%
+}
+/* 4. Body Styles */
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+main {
+    background-color: black;
+}
+body {
+    overflow-x: hidden;
+}
+
+
+/* Carousel Syles */
+.carousel-item{
+    height: 32rem;
+    background-color: #777;
+    position: relative;
+    color:white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    left:15%;
+    right: 0;
+    padding-bottom: 50px
+}
+
+
+
+/* Form Styles */
+#formMarginTop {
+    margin-top: 1%;
+}
+#playerForm {
+    margin: 0 0 5% 0%;
+}
+#playerForm>legend{
+    text-align: center;
+    margin: 1% 0 0 0;
+}
+#myModal {
+    margin: 12.5% 0 0 0%; 
+}
+.positions {
+    margin: 0 0 5% 0%;
+}
+button#Submit {
+    margin: 0 0 5% 60%;
+}
+
+
+div.col-lg-4>p{
+    font-size: .95em;
+    margin: 5% 0 2% 5%;
+    opacity: 75%;
+}
+div.col-lg-4>a {
+    margin: 5% 0 0 13%;
+}
+
+#steezus {
+    width: 100%;
+    margin-top: 5%
+}
+#getToKnow{
+    text-align: center;
+    margin-top: 5%;
+}
+#rosterButton {
+    height: 50px;
+    width: 250px;
+    margin-top: 5%;
+    margin-left: 18%
+}
+section {
+    background-color: gray;
+    padding: 15px;
+    text-align: center;
+}
+iframe {
+    margin-top: 5%;
+}
+/* 5. Footer Styles */
+footer {
+    padding: 20px;
+    height: 275px;
+    text-align: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+svg {
+    margin-left: 1%;
+}
+
+
+/* Roster */
+
+div[class="card mb-3"] {
+    margin-top: 5%
+}
+
+
+/* 6. Media Queries */
+@media screen and (min-width: 1200px) {
+    .close:hover {
+        cursor: pointer
+    }
+    #myModal {
+        margin: 12.5% 0 0 26%;
+        width: 48%
+    }
+    form{
+        box-shadow: 15px 15px 5px black;
+    }
+    .dropdown{
+        display: block;
+    }
+    .showMobile {
+        display: none;
+    }
+    footer>.row{
+        margin-top: 2.5%
+    }
+    h3.col-md-4 {
+        margin-left: 4%
+    }
+
+    #steezus {
+        width: 100%;
+        margin-top: 5%
+    }
+    #goMallards {
+        text-align: unset;
+    }
+    #getToKnow {
+        margin: 10% 0 0 -12%;
+        text-align: unset;
+    }
+    #rosterButton {
+        height: 50px;
+        width: 250px;
+        margin: 25% 0 0 0;
+    }
+
+}
+@media screen and (max-width: 350px) {
+    div.col-lg-4>p{
+        font-size: .8em;
+    }
+}
+
+
+
+
+
